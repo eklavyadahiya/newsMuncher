@@ -1,2 +1,4 @@
 newsMuncher/mongoConfig.py
 .scrapy/deltafetch/*
+newsMuncher/__pycache__/*
+newsMuncher/spiders/__pycache__/*
