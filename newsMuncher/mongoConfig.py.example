@@ -1,4 +1,4 @@
-#store mongodb credentials here
+#store mongodb credentials heres
 
 class dbConfig:
     userName = ''
