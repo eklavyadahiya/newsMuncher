@@ -5,7 +5,7 @@ from newsMuncher.items import newsItem
 from scrapy.loader import ItemLoader
 from newsMuncher.mongo_provider import MongoProvider
 
-
+#scraper block start
 class TheGuardianSpider(CrawlSpider):
     name = 'theguardian'
     allowed_domains = ['theguardian.com', 'www.theguardian.com']
@@ -24,3 +24,4 @@ class TheGuardianSpider(CrawlSpider):
         loader.add_css('date', '.css-hn0k3p')
         loader.add_value('site', 'theguardian.com')
         return loader.load_item()
+#scraper block end
